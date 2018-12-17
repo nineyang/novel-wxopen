@@ -1,0 +1,5 @@
+<view>
+    home
+
+    <tab-bar active="home"></tab-bar>
+</view>

@@ -1,0 +1,5 @@
+<view>
+    bookcase
+
+    <tab-bar active="bookcase"></tab-bar>
+</view>

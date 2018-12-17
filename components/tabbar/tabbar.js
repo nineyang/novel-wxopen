@@ -5,12 +5,28 @@
 'use strict';
 
 Component({
+    properties: {
+        active: String
+    },
     data: {
-        active: 0
+        wordMapper: {
+            "bookcase": 0,
+            "books": 1,
+            "search": 2,
+            "home": 3
+        },
+        numMapper: ["bookcase", "books", "search", "home"]
+    },
+    pageLifetimes: {
+        show() {
+        },
     },
     methods: {
         onChange(event) {
-            console.log(event.detail);
+            let url = this.data.numMapper[event.detail];
+            wx.navigateTo({
+                url: '../../pages/' + url + '/index'
+            })
         }
     }
 

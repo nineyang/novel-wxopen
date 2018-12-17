@@ -1,0 +1,5 @@
+<view>
+    search
+
+    <tab-bar active="search"></tab-bar>
+</view>

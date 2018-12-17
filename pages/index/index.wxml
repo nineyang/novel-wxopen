@@ -7,7 +7,6 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <tab-bar></tab-bar>
-  </view>
+
+  <tab-bar active="books"></tab-bar>
 </view>
