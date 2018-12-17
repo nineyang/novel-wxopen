@@ -1,5 +1,13 @@
 <view>
-    bookcase
+    <van-cell-group>
+        <van-cell title="共9本小说">
+            <van-icon
+                    slot="right-icon"
+                    name="edit"
+            />
+        </van-cell>
+    </van-cell-group>
+
 
     <tab-bar active="bookcase"></tab-bar>
 </view>

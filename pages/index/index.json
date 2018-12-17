@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "van-button": "../../miniprogram_npm/vant-weapp/button/index",
-    "tab-bar": "../../components/tabbar/tabbar"
+    "tab-bar": "../../components/tabbar/index"
   },
   "window": {
     "navigationBarTitleText": "主页"

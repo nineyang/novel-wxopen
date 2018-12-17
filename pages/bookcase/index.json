@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "tab-bar": "../../components/tabbar/tabbar"
+    "tab-bar": "../../components/tabbar/index",
+    "van-cell": "../../miniprogram_npm/vant-weapp/cell/index",
+    "van-icon": "../../miniprogram_npm/vant-weapp/icon/index",
+    "van-cell-group": "../../miniprogram_npm/vant-weapp/cell-group/index"
   }
 }
