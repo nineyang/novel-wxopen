@@ -8,6 +8,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <van-button type="primary">默认按钮</van-button>
+    <tab-bar></tab-bar>
   </view>
 </view>
