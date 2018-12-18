@@ -1,0 +1,30 @@
+.book {
+    display: inline-block;
+}
+
+.book-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+    width: 220rpx;
+    height: 300rpx;
+    position: relative;
+}
+
+.book-cover {
+    width: 180rpx;
+    height: 250rpx;
+}
+
+.book-title {
+    color: #aaa;
+    font-size:26rpx;
+}
+
+.remove-icon{
+    position: absolute;
+    right:5rpx;
+    top:-20rpx;
+}

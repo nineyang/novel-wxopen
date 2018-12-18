@@ -8,6 +8,11 @@
         </van-cell>
     </van-cell-group>
 
+    <book></book>
+    <book></book>
+    <book></book>
+    <book></book>
+
 
     <tab-bar active="bookcase"></tab-bar>
 </view>
