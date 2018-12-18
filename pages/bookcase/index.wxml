@@ -3,16 +3,16 @@
         <van-cell title="共9本小说">
             <van-icon
                     slot="right-icon"
-                    name="edit"
+                    name="{{icon}}"
+                    bindtap="onEdit"
             />
         </van-cell>
     </van-cell-group>
 
-    <book></book>
-    <book></book>
-    <book></book>
-    <book></book>
-
+    <book show-remove="{{showRemove}}"></book>
+    <book show-remove="{{showRemove}}"></book>
+    <book show-remove="{{showRemove}}"></book>
+    <book show-remove="{{showRemove}}"></book>
 
     <tab-bar active="bookcase"></tab-bar>
 </view>
