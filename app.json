@@ -4,8 +4,9 @@
     "pages/logs/logs",
     "pages/bookcase/index",
     "pages/home/index",
-    "pages/books/index",
-    "pages/search/index"
+    "pages/books/index/index",
+    "pages/search/index",
+    "pages/finance/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

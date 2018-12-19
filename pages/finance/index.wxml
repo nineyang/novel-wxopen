@@ -1,0 +1,5 @@
+<view>
+    finance
+
+    <tab-bar active="home"></tab-bar>
+</view>
