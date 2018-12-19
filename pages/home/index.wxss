@@ -1,0 +1,31 @@
+
+.separate {
+    height: 20rpx;
+    background: #f3f5f7;
+}
+
+
+.user-info{
+    display: flex;
+    margin-left:30rpx;
+    padding:15rpx 0;
+}
+
+.user-id , .user-balance{
+    font-size: 25rpx;
+}
+
+.user-name{
+    font-size: 30rpx;
+}
+
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rpx;
+}
+
+.user-avatar{
+    width: 156rpx;
+    height: 156rpx;
+}

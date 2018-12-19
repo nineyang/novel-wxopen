@@ -1,5 +1,58 @@
 <view>
-    home
+
+    <view class="user-info">
+        <image class="user-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+
+        <view class="user-detail">
+            <text class="user-name">Nine</text>
+            <text class="user-id">ID:1111</text>
+            <text class="user-balance">1000阅读币</text>
+            <van-button type="primary" size="mini">签到</van-button>
+        </view>
+    </view>
+
+    <view class="separate"></view>
+
+
+    <van-cell-group custom-class="">
+        <van-cell
+                title="阅读记录"
+                is-link
+                icon="todo-list"
+        />
+        <van-cell
+                title="消费记录"
+                is-link
+                icon="balance-list"
+        />
+        <van-cell
+                title="收入记录"
+                is-link
+                icon="bill"
+        />
+    </van-cell-group>
+
+    <view class="separate"></view>
+
+    <van-cell-group custom-class="">
+        <van-cell
+                title="绑定手机"
+                is-link
+                value="赠送1000阅读币"
+                icon="point-gift"
+        />
+        <van-cell
+                title="帮助"
+                is-link
+                icon="question"
+        />
+        <van-cell
+                title="联系我们"
+                is-link
+                icon="chat"
+        />
+    </van-cell-group>
+
 
     <tab-bar active="home"></tab-bar>
 </view>
