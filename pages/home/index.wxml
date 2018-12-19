@@ -24,11 +24,13 @@
                 title="消费记录"
                 is-link
                 icon="balance-list"
+                url="/pages/finance/index?type=payout"
         />
         <van-cell
                 title="收入记录"
                 is-link
                 icon="bill"
+                url="/pages/finance/index?type=income"
         />
     </van-cell-group>
 

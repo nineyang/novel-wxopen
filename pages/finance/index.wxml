@@ -1,5 +1,66 @@
 <view>
-    finance
+
+    <van-tabs active="{{ mapper[type] }}" bind:change="onChange">
+        <van-tab title="消费记录">
+            <van-cell-group>
+                <van-cell
+                        title="购买《情深深雨蒙蒙》第10章"
+                        value="-10阅读币"
+                />
+
+                <van-cell
+                        title="购买《情深深雨蒙蒙》第10章"
+                        value="-10阅读币"
+                />
+
+                <van-cell
+                        title="购买《情深深雨蒙蒙》第10章"
+                        value="-10阅读币"
+                />
+
+                <van-cell
+                        title="购买《情深深雨蒙蒙》第10章"
+                        value="-10阅读币"
+                />
+
+                <van-cell
+                        title="购买《情深深雨蒙蒙》第10章"
+                        value="-10阅读币"
+                />
+
+                <van-cell
+                        title="购买《情深深雨蒙蒙》第10章"
+                        value="-10阅读币"
+                />
+            </van-cell-group>
+        </van-tab>
+        <van-tab title="收入记录">
+            <van-cell-group>
+                <van-cell
+                        title="签到奖励"
+                        value="+100阅读币"
+                />
+
+                <van-cell
+                        title="绑定手机号奖励"
+                        value="+1000阅读币"
+                />
+
+                <van-cell
+                        title="签到奖励"
+                        value="+100阅读币"
+                />
+
+                <van-cell
+                        title="绑定手机号奖励"
+                        value="+1000阅读币"
+                />
+
+
+            </van-cell-group>
+        </van-tab>
+    </van-tabs>
+
 
     <tab-bar active="home"></tab-bar>
 </view>
