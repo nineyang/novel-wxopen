@@ -1,0 +1,16 @@
+.search-tag {
+    margin:5rpx 10rpx;
+}
+
+.hot-search{
+    margin-top:10rpx;
+}
+
+.hot-search-title{
+    font-size:30rpx;
+    margin-left:20rpx;
+}
+
+.hot-search-tags{
+    padding:0 30rpx;
+}

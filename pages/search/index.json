@@ -1,6 +1,8 @@
 {
   "usingComponents": {
-    "tab-bar": "../../components/tabbar/index"
+    "tab-bar": "../../components/tabbar/index",
+    "van-search": "../../miniprogram_npm/vant-weapp/search/index",
+    "van-tag": "../../miniprogram_npm/vant-weapp/tag/index"
   },
   "navigationBarTitleText": "搜索"
 }

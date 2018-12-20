@@ -1,5 +1,27 @@
 <view>
-    search
+    <van-search
+            value="{{ value }}"
+            placeholder="请输入搜索关键词"
+            use-action-slot
+            bind:search="onSearch"
+            bind:cancel="onCancel"
+    >
+        <view slot="action" bindtap="onSearch">搜索</view>
+    </van-search>
+
+    <view class="hot-search">
+        <text class="hot-search-title">热门搜索</text>
+        <view class="hot-search-tags">
+            <van-tag round size="large" type="danger" custom-class="search-tag">情深深雨蒙蒙</van-tag>
+            <van-tag round size="large" type="primary" custom-class="search-tag">海贼王</van-tag>
+            <van-tag round size="large" type="success" custom-class="search-tag">天下第一</van-tag>
+
+            <van-tag round size="large" color="#f2826a" custom-class="search-tag">总裁在上</van-tag>
+            <van-tag round size="large" color="#f2826a" custom-class="search-tag">小虾米</van-tag>
+            <van-tag round size="large" color="#7232dd" custom-class="search-tag">大帅你又去哪了</van-tag>
+            <van-tag round size="large" color="#7232dd" custom-class="search-tag">呵呵呵哈哈</van-tag>
+        </view>
+    </view>
 
     <tab-bar active="search"></tab-bar>
 </view>
