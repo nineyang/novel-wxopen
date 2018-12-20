@@ -1,0 +1,27 @@
+<view>
+
+    <van-cell-group>
+        <van-cell
+                title="《情深深玉米面》第9章"
+                value="3分钟前"
+                is-link
+        />
+
+        <van-cell
+                title="《总裁在上我在下啊啊啊》第8章"
+                value="1小时前"
+                is-link
+        />
+
+        <van-cell
+                title="《呵呵呵哈哈》第8章"
+                value="1天前"
+                is-link
+        />
+
+
+    </van-cell-group>
+
+
+    <tab-bar active="home"></tab-bar>
+</view>

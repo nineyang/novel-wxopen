@@ -6,5 +6,5 @@
     "van-cell": "../../miniprogram_npm/vant-weapp/cell/index",
     "van-cell-group": "../../miniprogram_npm/vant-weapp/cell-group/index"
   },
-  "navigationBarTitleText": "收支列表"
+  "navigationBarTitleText": "阅读记录"
 }

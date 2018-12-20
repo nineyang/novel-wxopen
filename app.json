@@ -6,7 +6,8 @@
     "pages/home/index",
     "pages/books/index",
     "pages/search/index",
-    "pages/finance/index"
+    "pages/finance/index",
+    "pages/history/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

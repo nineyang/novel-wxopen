@@ -19,6 +19,7 @@
                 title="阅读记录"
                 is-link
                 icon="todo-list"
+                url="/pages/history/index"
         />
         <van-cell
                 title="消费记录"
