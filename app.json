@@ -4,7 +4,7 @@
     "pages/logs/logs",
     "pages/bookcase/index",
     "pages/home/index",
-    "pages/books/index",
+    "pages/book/index",
     "pages/search/index",
     "pages/finance/index",
     "pages/history/index"

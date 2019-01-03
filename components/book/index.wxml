@@ -1,7 +1,8 @@
 <view class="book">
 
     <view class="book-info">
-        <image src="http://img.quyuewang.cn/2018/08/09/6f7888dc52d9da2be69546e4e258b835.jpg_130x178" class="book-cover"></image>
+        <image src="http://img.quyuewang.cn/2018/08/09/6f7888dc52d9da2be69546e4e258b835.jpg_130x178"
+               class="book-cover"></image>
         <text class="book-title">情深深雨蒙蒙</text>
 
         <view class="remove-icon" hidden="{{showRemove ? false : true}}" bindtap="onRemove">
