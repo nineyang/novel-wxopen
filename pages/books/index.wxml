@@ -1,5 +1,0 @@
-<view>
-    books
-
-    <tab-bar active="books"></tab-bar>
-</view>

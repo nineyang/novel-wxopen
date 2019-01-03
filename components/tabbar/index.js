@@ -11,11 +11,11 @@ Component({
     data: {
         wordMapper: {
             "bookcase": 0,
-            "books": 1,
+            "index": 1,
             "search": 2,
             "home": 3
         },
-        numMapper: ["bookcase", "books", "search", "home"]
+        numMapper: ["bookcase", "index", "search", "home"]
     },
     pageLifetimes: {
         show() {

@@ -18,19 +18,19 @@
         <van-cell
                 title="阅读记录"
                 is-link
-                icon="todo-list"
+                icon="todo-list-o"
                 url="/pages/history/index"
         />
         <van-cell
                 title="消费记录"
                 is-link
-                icon="balance-list"
+                icon="balance-list-o"
                 url="/pages/finance/index?type=payout"
         />
         <van-cell
                 title="收入记录"
                 is-link
-                icon="bill"
+                icon="bill-o"
                 url="/pages/finance/index?type=income"
         />
     </van-cell-group>
@@ -42,17 +42,17 @@
                 title="绑定手机"
                 is-link
                 value="赠送1000阅读币"
-                icon="point-gift"
+                icon="point-gift-o"
         />
         <van-cell
                 title="帮助"
                 is-link
-                icon="question"
+                icon="question-o"
         />
         <van-cell
                 title="联系我们"
                 is-link
-                icon="chat"
+                icon="chat-o"
         />
     </van-cell-group>
 
