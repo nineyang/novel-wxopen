@@ -6,7 +6,7 @@
         <text class="book-title">情深深雨蒙蒙</text>
 
         <view class="remove-icon" hidden="{{showRemove ? false : true}}" bindtap="onRemove">
-            <van-icon name="http://image.super-campus.com/novel/remove1.png" size="32rpx"/>
+            <van-icon name="close" color="#ea3720" size="32rpx"/>
         </view>
 
     </view>

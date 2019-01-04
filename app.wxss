@@ -9,4 +9,13 @@
   box-sizing: border-box;
 }
 
+.separate {
+  height: 14rpx;
+  background: #f3f5f7;
+}
+
+.margin-bottom-50{
+  margin-bottom:50px;
+}
+
 @import "/miniprogram_npm/vant-weapp/common/index.wxss";

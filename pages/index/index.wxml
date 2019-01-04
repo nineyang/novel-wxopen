@@ -1,7 +1,52 @@
 <!--index.wxml-->
-<view>
+<view class="margin-bottom-50">
     <van-tabs active="{{ active }}" bind:change="onChange">
-        <van-tab title="首页">首页</van-tab>
+        <van-tab title="首页">
+            <van-cell-group>
+                <van-cell
+                        title="猜你喜欢"
+                        value="查看更多"
+                        is-link
+                />
+                <book></book>
+                <book></book>
+                <book></book>
+                <book></book>
+                <book></book>
+                <book></book>
+            </van-cell-group>
+            <view class="separate"></view>
+
+            <van-cell-group>
+                <van-cell
+                        title="主编推荐"
+                        value="查看更多"
+                        is-link
+                />
+                <book></book>
+                <book></book>
+                <book></book>
+                <book></book>
+                <book></book>
+                <book></book>
+            </van-cell-group>
+            <view class="separate"></view>
+
+            <van-cell-group>
+                <van-cell
+                        title="热销网文"
+                        value="查看更多"
+                        is-link
+                />
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+            </van-cell-group>
+            <view class="separate"></view>
+        </van-tab>
         <van-tab title="排行">排行</van-tab>
         <van-tab title="分类">分类</van-tab>
     </van-tabs>

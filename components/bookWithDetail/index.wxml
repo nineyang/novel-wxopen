@@ -1,0 +1,8 @@
+<view class="book">
+    <image src="http://img.quyuewang.cn/2018/08/09/6f7888dc52d9da2be69546e4e258b835.jpg_130x178"
+           class="book-cover"></image>
+    <view class="book-info">
+        <text class="book-title">情深深雨蒙蒙</text>
+        <text class="book-desc">一个关于aa和bb感天动地的感情故事，天地崩，才敢与君绝啦啦啦啦回到家打开领导深刻的理解是</text>
+    </view>
+</view>
