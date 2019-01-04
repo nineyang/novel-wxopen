@@ -47,8 +47,40 @@
             </van-cell-group>
             <view class="separate"></view>
         </van-tab>
-        <van-tab title="排行">排行</van-tab>
-        <van-tab title="分类">分类</van-tab>
+        <van-tab title="排行">
+            <van-cell-group>
+                <van-cell
+                        title="点击榜"
+                        value="查看更多"
+                        is-link
+                        url="/pages/rank/index?tab=clicks"
+                />
+                <book></book>
+                <book></book>
+                <book></book>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+            </van-cell-group>
+            <view class="separate"></view>
+
+            <van-cell-group>
+                <van-cell
+                        title="畅销榜"
+                        value="查看更多"
+                        is-link
+                        url="/pages/rank/index?tab=sells"
+                />
+                <book></book>
+                <book></book>
+                <book></book>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+                <book-with-detail></book-with-detail>
+            </van-cell-group>
+            <view class="separate"></view>
+        </van-tab>
+        <!--<van-tab title="分类">分类</van-tab>-->
     </van-tabs>
 
     <tab-bar active="index"></tab-bar>

@@ -7,7 +7,8 @@
     "pages/book/index",
     "pages/search/index",
     "pages/finance/index",
-    "pages/history/index"
+    "pages/history/index",
+    "pages/rank/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

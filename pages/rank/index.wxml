@@ -1,0 +1,14 @@
+<view class="margin-bottom-50">
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <book-with-detail></book-with-detail>
+    <tab-bar active="books"></tab-bar>
+</view>
